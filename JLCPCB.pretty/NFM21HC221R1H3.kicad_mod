@@ -1,0 +1,109 @@
+(footprint "NFM21HC221R1H3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "98e56dac-9b94-4ceb-afde-7116f8011409")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "NFM21HC221R1H3"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5ba0cf14-1277-4eb6-80f8-fb0ff45326f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "969924fc-509b-4823-9cb6-bf788a731ce5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8897292b-8ac9-4d66-8aad-a4070c2d4290")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1 -0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "29b1946c-0b6f-4dde-a8c9-c9505216e76f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5415d168-b2e0-4a4f-9fee-67a5f42d4bac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1 0)
+		(size 0.6 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "0514b6ed-0ae7-4c0a-bb31-d81a8c6b0353")
+	)
+	(pad "2" smd rect
+		(at 1 0)
+		(size 0.6 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "e4b2bba4-a6a5-4eb7-8870-b40cc9981e78")
+	)
+	(pad "3" smd rect
+		(at 0 -0.625)
+		(size 0.6 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "814db775-2693-4a5e-875a-71eee9d6c049")
+	)
+	(pad "3" smd rect
+		(at 0 0.625)
+		(size 0.6 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "b425f6ea-9888-48c8-adf3-0002f5695283")
+	)
+	(embedded_fonts no)
+)
